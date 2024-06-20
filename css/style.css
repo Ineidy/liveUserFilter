@@ -1,0 +1,31 @@
+*{
+    padding:  3px;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 15px ;
+    background-color: #e06a9b;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+.spanbusqueda{
+    margin-bottom: 20px;
+}
+input{
+    margin-bottom: 20px;
+    padding-left: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.title{
+    margin-top: 20px;
+}
+.busqueda{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
