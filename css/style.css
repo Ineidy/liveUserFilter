@@ -24,8 +24,27 @@ input{
 .title{
     margin-top: 20px;
 }
+.personas{
+    overflow-y: scroll;
+}
 .busqueda{
 display: flex;
 flex-direction: column;
 align-items: center;
+}
+.fotopersona{
+    width: 50px;
+    border-radius:100%;
+}
+.users{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.info{
+    margin-right: 100px;
+}
+.nombre h5{
+    font-size: 20px;
 }
