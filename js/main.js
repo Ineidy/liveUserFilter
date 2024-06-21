@@ -1,16 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const input = document.querySelector('.input__search'); // Cambiado a querySelector
-    const personasContainer = document.querySelector('.personas'); // Cambiado a querySelector
+    const input = document.querySelector('.input__search');
+    const personasContainer = document.querySelector('.personas');
 
     async function fetchData() {
-        try {
             const res = await fetch('https://6674179975872d0e0a950e53.mockapi.io/user');
             const data = await res.json();
             return data;
-        } catch (error) {
-            console.error('Error fetching data:', error);
-            return [];
-        }
     }
 
     function displayUsers(users) {
@@ -49,5 +44,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    init(); // Llamada a la función init para inicializar la aplicación
+    init();
 });
